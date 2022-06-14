@@ -1,5 +1,5 @@
 const Marketplace = artifacts.require("Marketplace");
 
-export default function(deployer) {
+module.exports = function(deployer) {
   deployer.deploy(Marketplace);
 };
